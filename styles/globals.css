@@ -1,0 +1,46 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navBtn{
+
+        @apply h-6 md:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out
+
+    }
+}
+.btn{
+  @apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+} */
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Button Styling */
+  .navBtn {
+    @apply h-6 md:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
+  }
+
+  .btn {
+    @apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+  }
+
+  /* Avatar Styling */
+  .avatar {
+    @apply w-12 h-12 rounded-full flex items-center justify-center bg-blue-500 text-white font-bold;
+  }
+
+  /* Container Styling for Story */
+  .storyContainer {
+    @apply flex space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-x-scroll scrollbar-thin scrollbar-thumb-black;
+  }
+} 
+
+
+
+
